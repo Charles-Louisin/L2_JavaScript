@@ -6,78 +6,50 @@
     <title>Javascript basics</title>
 </head>
 <style>
-    .btn{
-        padding: 10px 40px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 26px;
-        border-radius: 50px;
-        background-color: red;
+    div.box {
+        width: 80%;
+        height: 70vh;
+        background-color: blue;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0px #000;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
+    div.btns {
+        width: fit-content;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    button {
+        padding: 20px 60px;
+        border-radius: 50px;
+        border: none;
+        margin: 0 50px;
+        cursor: pointer;
+        box-shadow: 0 0 5px 0px #000;
+        background-color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    button:hover {
+        box-shadow: 0 0 10px 0px #000;
+    }
+    
 </style>
 <body>
-    
-    <div id="root">
-        
+    <div class="box"></div>
+    <div class="btns">
+        <button onclick="document.querySelector('.box').style.opacity='100%'">ADD</button>
+        <button onclick="document.querySelector('.box').style.opacity='0%'">REMOVE</button>
     </div>
-    <div class="me">
-        <h1>title</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita itaque ea facere, natus excepturi reprehenderit sint velit, voluptate iste assumenda neque impedit obcaecati optio vel, dolor provident eum! Eum.
-        </p>
-    </div>
-    <div class="myName">
-
-    </div>
-    <button class="btn" onclick="document.querySelector('.me').style.backgroundColor='red'">
-        click here to change color to red
-    </button>
-<!-- DOM (document object model) -->
-<!--Ways of accessing html with js
-* *internal
--external
--inline
- -->
 
     <script>
-        var great = "<h1> Hello seven academy </h1>";
-        document.getElementById("root").innerHTML = great;
-        document.getElementById("root").style.backgroundColor="blue";
-        document.querySelector(".me").style.backgroundColor="gray";
-        
-
-        var firstName = "charles";
-        var lastName = "lousin";
-        var userName = firstName+"@"+lastName;
-        console.log('Your username is :' + userName);
-        document.querySelector(".myName").innerHTML=userName;
-
-        var x=3;
-        var y=3;
-        var z=x+y;
-        // var result ='The result of x+y is :'+  z;
-        console.log('The result of x+y is :'+  z);
-        // alert(result);
-        // console.log(result);
-
-        var isLike=false;
-        if(isLike){
-            document.querySelector(".me").style.backgroundColor="green";
-        }
-        else{
-            document.querySelector(".me").style.backgroundColor="aqua";
-        }
-
-        
+        document.querySelector('.box').style.opacity='0%';
+        document.querySelector('.box').style.opacity='100%';
     </script>
 </body>
 </html>
