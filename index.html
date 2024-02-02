@@ -7,8 +7,8 @@
 </head>
 <style>
     div.box {
-        width: 80%;
-        height: 70vh;
+        width: 50%;
+        height: 50vh;
         background-color: blue;
         border-radius: 20px;
         box-shadow: 0 0 10px 0px #000;
@@ -24,9 +24,9 @@
         margin: 0 auto;
     }
     button {
-        padding: 20px 60px;
+        padding: 20px 40px;
         border-radius: 50px;
-        border: none;
+        border: transparent;
         margin: 0 50px;
         cursor: pointer;
         box-shadow: 0 0 5px 0px #000;
@@ -43,13 +43,8 @@
 <body>
     <div class="box"></div>
     <div class="btns">
-        <button onclick="document.querySelector('.box').style.opacity='100%'">ADD</button>
-        <button onclick="document.querySelector('.box').style.opacity='0%'">REMOVE</button>
+        <button onclick="addremove(this)">REMOVE</button>
     </div>
-
-    <script>
-        document.querySelector('.box').style.opacity='0%';
-        document.querySelector('.box').style.opacity='100%';
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
