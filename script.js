@@ -9,18 +9,20 @@ document.querySelector('.box').innerHTML = "<h1>Hotels proposés :</h1>" + hotel
 
 
 // Prompt number
-var firstName = prompt("Entre ta note du premier test")
-var lastName = prompt("Entre ta note du deuxieme test")
-function addition() {
-    alert(firstName + lastName)
+var firstNumber = prompt("ANCIEN SOLDE")
+var lastNumber = prompt("MONTANT DES ACHATS")
+function soustraction() {
+    alert("VOTRE NOUVEAU SOLDE EST DE :" +" "+ (firstNumber - lastNumber)+"FCFA")
 }
-addition()
+soustraction()
+
+
+
 
 // toggle button and toggleText button
 var hideshow = false;
 
 function addremove(event) {
-
     var text = event.textContent || event.innerText;
 
     if(!hideshow) {
