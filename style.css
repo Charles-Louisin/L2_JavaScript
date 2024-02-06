@@ -220,8 +220,8 @@ li.vert {
     background-color: green;
     box-shadow: 0 0 2px 0 #000;
 }
-li.jaune {
-    background-color: yellow;
+li.rouge {
+    background-color: red;
     box-shadow: 0 0 2px 0 #000;
 }
 div.panier {
