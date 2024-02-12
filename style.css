@@ -5,330 +5,295 @@
 }
 
 main {
-    padding-top: 70px;
     width: 100%;
-    height: 100vh;
-    font-family: "Poppins";
-    background: linear-gradient(to right, #000 50%, #fff 50%);
+    padding-top: 50px;
+    background: linear-gradient(to bottom, #ffffff87 50%, yellow );
 }
 
-div.container {
-    display: block;
-    width: 85%;
-    height: 90%;
-    background: #fff;
-    box-shadow: 0 0 10px 0 #888;
+/* FIRST BOX */
+
+div.big-box {
+    width: 45%;
+    height: fit-content;
     margin: auto;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(to top legitft, #fff, yellow);
+    box-shadow: 0 0 7px 0 #000;
 }
 
-div.header {
+div.img-bg {
     width: 100%;
-    height: 70px;
-    padding: 10px 50px;
-    /* background-color: rgba(128, 128, 128, 0.529); */
+    height: 55%;
+    background-color: transparent;
+    background: url(./images/Flyer-Design-Ideas-To-Get-Inspired-768x439.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    box-shadow: 0 1px 2.5px 0 #fbb1b14a;
+    padding-bottom: 50px;
 }
-div.header-left {
-    width: 43%;
-    height: 100%;
-    display: inline-block;
-    /* background-color: bisque; */
-}
-div.logo {
-    width: 20%;
-    height: 100%;
-    display: inline-block;
-    margin-right: 15px;
-    /* background-color: chocolate; */
-}
-div.logo img {
+nav {
+    margin-top: 3px;
     display: block;
-    margin: auto;
-    width: 70%;
-    height: 100%;
-}
-div.navbar {
+    width: fit-content;
+    height: fit-content;
+    /* background-color: red; */
     float: right;
-    width: 75%;
-    height: 100%;
-    display: inline-block;
-    /* background-color: chocolate; */
 }
-div.navbar nav {
+nav a {
     display: inline-block;
-    padding: 17px 10px;
-}
-div.navbar nav a {
     text-decoration: none;
-    color: #000;
+    text-transform: uppercase;
+    background-color: #514e4e4b;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    margin: 0 2px;
+    border-radius: 20px; 
+}
+nav a:hover {
+    box-shadow: 0 0 10px 0 #fff;
+    background-color: #88888872;
+}
+
+div.theme {
+    display: block;
+    margin: auto;
+}
+div.theme h1 {
+    padding: 15px;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: #413a3aaf;
+}
+div.theme h1 mark {
+    background: #ffffff87;
+    box-shadow: 0 0 25px 0 #fffffff8;
+    color: #000000ce;
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+small {
+    /* display: inline-block; */
+    background-color: #88888897;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #fff;
+    padding: 10px;
+    width: 100%;
+    text-transform: none;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #fff;
     font-weight: bold;
     
 }
-a.right {
-    margin-left: 30px;
-}
-div.header-right {
-    width: 15%;
-    height: 100%;
+
+/* SECOND BOX */
+
+div.small-box {
     display: inline-block;
+    width: 100%;
+    height: 42%;
+    margin-top: 8px;
+    /* background-color: rgb(220, 245, 221); */
+}
+
+div.contain {
+    width: 100%;
+    height: 100%;
     float: right;
-    /* background-color: bisque; */
-}
-div.boxs {
-    float: left;
-    width: fit-content;
-    height: 100%;
-    /* background-color: #888; */
-}
-div.boxs span {
-    cursor: pointer;
-    margin-left: 5px;
-    padding-top: 13px;
-}
-div.boxs p {
-    margin-left: 5px;
-    margin-right: 25px;
-    padding-top: 14px;
-}
-div.boxs img {
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    padding-top: 8px;
-    margin-left: 7px;
-}
-
-
-
-div.body-container {
-    width: 80%;
-    height: 75%;
-    margin: 0 auto;
-    margin-top: 35px;
-    /* background-color: orange; */
-}
-div.body-left {
-    width: 40%;
-    height: 100%;
-    display: inline-block;
-    /* background-color: rgb(219, 91, 91); */
-}
-div.part-up {
-    display: block;
-    width: 100%;
-    height: 80%;
-    /* background-color: rgb(94, 94, 46); */
-}
-h2 {
-    color: orange;
-    word-spacing: 10px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-h1 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 15px;
-}
-h4 {
-    margin-top: 20px;
-    color: #888888a0;
-}
-div.select {
-    margin-top: 20px;
-    width: 100%;
-    height: fit-content;
-    /* background-color: burlywood; */
-}
-li.list {
-    align-items: center;
-    list-style: none;
-    display: inline-flex;
-    /* background-color: red; */
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    border: 3px solid #000;
-    border-radius: 5px;
-}
-li.qnt,
-li.size {
-    cursor: pointer;
-}
-li.qnt span,
-li.size span {
-    color: orange;
-    font-size: 30px;
-}
-li.size {
-    margin-left: 5px;
-}
-li.price {
-    border: 3px solid orange;
-    color: orange;
-    margin-left: 35px;
-    padding: 10px 5px;
-}
-div.couleur {
-    width: 100%;
-    height: 25px;
-    /* background-color: lightblue; */
-    margin-top: 15px;
-}
-div.couleur ul {
-    align-items: center;
-}
-li.text-color {
-    float: left;
-    display: inline-flex;
-   list-style: none;
-    width: fit-content;
-    padding: 4px 0;
-    /* background-color: rosybrown; */
-}
-li.text-color p {
-    /* padding-bottom: 10px; */
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-li.color {
-    cursor: pointer;
-    float: left;
-    margin-top: 2.5px;
-    margin-left: 10px;
-    list-style: none;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    /* background-color: green; */
-    display: inline-flex;
-}
-li.blanc {
-    background-color: #fff;
-    box-shadow: 0 0 2px 0 #000;
-}
-li.noir {
-    background-color: #000;
-    box-shadow: 0 0 2px 0 #000;
-}
-li.vert {
-    background-color: green;
-    box-shadow: 0 0 2px 0 #000;
-}
-li.jaune {
-    background-color: yellow;
-    box-shadow: 0 0 2px 0 #000;
-}
-div.panier {
     text-align: center;
+    /* background-color: red; */
+}
+div.first {
+    float: left;
+    display: inline-block;
+    width: 40%;
+    margin-right: 10px;
+    /* background-color: burlywood;  */
+}
+div.first h1 {
+    display: inline-block;
     width: fit-content;
     height: fit-content;
-    /* background-color: antiquewhite; */
-}
-li.add {
-    padding: 10px 25px;
-    background-color: #000;
-    color: #fff;
-    margin-top: 15px;
-    list-style: none;
-    border-radius: 50px;
-    font-weight: bold;
-    cursor: pointer;
-}
-div.part-down {
-    margin-top: 20px;
-    padding: 15px 0;
-    display: block;
-    width: 100%;
-    /* background-color: rgb(94, 94, 46); */
-}
-div.part-down p {
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-    color: #888888a0;
+    padding: 10px;
 }
-div.body-right {
-    width: 55%;
-    height: 100%;
+div.first h1 i {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+
+div.second {
     display: inline-block;
-    float: right;
-    /* background-color: rgb(219, 91, 91); */
-}
-div.big-image {
-    width: 100%;
-    height: 75%;
-    margin: auto;
-    /* background-color: rgba(248, 118, 139, 0.663); */
-    background-image: url(./images/others/nike_logo-removebg-preview.png);
-    background-repeat: no-repeat;
-    background-position: 100% -50%;
-}
-div.big-image img.change {
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 85%;
-    padding: 0 50px;
-}
-div.small-imgs {
-    width: 100%;
-    height: 25%;
-    /* background-color: pink; */
-}
-div.span1,
-div.images,
-div.span2 {
+    width: 46%;
+    height: 100%;
+    margin-right: 10px;
     float: left;
+    /* background-color: rgb(135, 206, 222); */
 }
-div.span1 {
-    width: 5%;
+
+div.username,
+div.email,
+div.password,
+div.password2 {
+    width: 100%;
+    height: 7vh;
+    /* background-color: red;   */
+    position: relative;
+}
+div.email,
+div.password,
+div.password2 {
+    margin-top: 5px;
+}
+p.user-message,
+p.email-message,
+p.pass-message {
+    width: auto;
+    height: fit-content;
+    text-align: left;
+    padding-left: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #222020dc;
+}
+input.input {
+    width: 100%;
     height: 100%;
-    cursor: pointer;
-    /* background-color: aquamarine; */
+    padding-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #888;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
-div.span1 span {
+i.eyes1 {
+    position: absolute;
+    right: 10px;
+    bottom: 16px;
+    color: #484747;
+    cursor: pointer;
+}
+
+
+div.username span,
+div.email span,
+div.password span,
+div.password2 span {
+    position: absolute;
+    left: 0;
+    padding: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    pointer-events: none;
+    color: #888;
+    transition: 0.4s ease;
+}
+
+input:focus,
+input:valid {
+    border: 3px solid rgb(0, 0, 255);
+}
+input:focus ~ span,
+input:valid ~ span {
+    color: rgb(0, 0, 255);
+    transform: translateX(10px) translateY(-10px) scaleX(0.88);
+    font-size: 10px;
     font-weight: bold;
-    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 6px;
+    padding: 1px 5px 1px 5px;
+    background-color: #fff;
+    letter-spacing: 3px;
 }
-div.images {
-    width: 90%;
-    height: 100%;
-    /* background-color: #888; */
+div.submit {
+    width: 70%;
+    height: 6vh;
+    /* background-color: gray; */
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    
 }
-div.shoes {
-    display: inline-block;
-    margin-left: 6px;
-    width: 23%;
+button.button {
+    width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 15px;
+    outline: none;
+    border: none;
     cursor: pointer;
-    /* background-color: blue; */
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000ec;
 }
-.boxshadow {
+button.button:hover {
     box-shadow: 0 0 5px 0 #888;
 }
-img.small-shoes {
-    display: block;
-    margin: 0 auto;
-    margin-top: 15px;
-    width: 90%;
-    height: 65%;
-    border-radius: 50%;
-}
-div.span2 {
+
+
+div.thirt {
+    display: inline-block;
     width: 5%;
     height: 100%;
-    cursor: pointer;
-    /* background-color: aquamarine; */
+    padding-top: 65px;
+    /* background-color: rgb(230, 82, 28); */
 }
-div.span2 span {
+div.rond {
+    text-align: center;
+    font-size: 20px;
     font-weight: bold;
-    padding-top: 40px;
-    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: fantasy;
+    float: left;
+    display: block;
+    padding-top: 2px;
+    padding-right: 2px;
+    width: 31px;
+    height: 28px;
+    margin-top: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* background-color: green; */
+}
+div.rond:hover {
+    box-shadow: 0 0 15px 0 #000;
+}
+
+div.jaune {
+    background-color: rgba(255, 255, 0, 0.79);
+    box-shadow: 0 0 5px 0 #000;
+}
+div.bleu {
+    background-color: rgba(0, 0, 255, 0.851);
+    box-shadow: 0 0 5px 0 #000;
+    color: #fff;
+}
+div.noir {
+    background-color: #000000da;
+    box-shadow: 0 0 5px 0 #000;
+    color: #fff;
 }
