@@ -42,3 +42,11 @@ function image4() {
     text2.innerHTML = "The JORDAN 4 RETRO is one of the best shoes made by Nike. With its perfect design, it is embedded in your sport as in your walks. It's a pass everywhere.";
     boxShadow.classList.toggle("boxshadow");
 }
+
+// change shoes
+// function changeshoes(src,title,desc,price) {
+//     document.querySelector('').src = src;
+//     document.querySelector('').innerHTML = title;
+//     document.querySelector('').innerHTML = desc;
+//     document.querySelector('').innerHTML = price;
+// }
