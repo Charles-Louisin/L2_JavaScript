@@ -5,6 +5,7 @@
 }
 
 main {
+<<<<<<< HEAD
     padding-top: 70px;
     width: 100%;
     height: 100vh;
@@ -331,4 +332,297 @@ div.span2 span {
     font-weight: bold;
     padding-top: 40px;
     float: right;
+=======
+    width: 100%;
+    padding-top: 50px;
+    background: linear-gradient(to bottom, #ffffff87 50%, yellow );
+}
+
+/* FIRST BOX */
+
+div.big-box {
+    width: 45%;
+    height: fit-content;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(to top legitft, #fff, yellow);
+    box-shadow: 0 0 7px 0 #000;
+}
+
+div.img-bg {
+    width: 100%;
+    height: 55%;
+    background-color: transparent;
+    background: url(./images/Flyer-Design-Ideas-To-Get-Inspired-768x439.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    box-shadow: 0 1px 2.5px 0 #fbb1b14a;
+    padding-bottom: 50px;
+}
+nav {
+    margin-top: 3px;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    /* background-color: red; */
+    float: right;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #514e4e4b;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    margin: 0 2px;
+    border-radius: 20px; 
+}
+nav a:hover {
+    box-shadow: 0 0 10px 0 #fff;
+    background-color: #88888872;
+}
+
+div.theme {
+    display: block;
+    margin: auto;
+}
+div.theme h1 {
+    padding: 15px;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: #413a3aaf;
+}
+div.theme h1 mark {
+    background: #ffffff87;
+    box-shadow: 0 0 25px 0 #fffffff8;
+    color: #000000ce;
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+small {
+    /* display: inline-block; */
+    background-color: #88888897;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #fff;
+    padding: 10px;
+    width: 100%;
+    text-transform: none;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+/* SECOND BOX */
+
+div.small-box {
+    display: inline-block;
+    width: 100%;
+    height: 42%;
+    margin-top: 8px;
+    /* background-color: rgb(220, 245, 221); */
+}
+
+div.contain {
+    width: 100%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    /* background-color: red; */
+}
+div.first {
+    float: left;
+    display: inline-block;
+    width: 40%;
+    margin-right: 10px;
+    /* background-color: burlywood;  */
+}
+div.first h1 {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 10px;
+}
+div.first h1 i {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+
+div.second {
+    display: inline-block;
+    width: 46%;
+    height: 100%;
+    margin-right: 10px;
+    float: left;
+    /* background-color: rgb(135, 206, 222); */
+}
+
+div.username,
+div.email,
+div.password,
+div.password2 {
+    width: 100%;
+    height: 7vh;
+    /* background-color: red;   */
+    position: relative;
+}
+div.email,
+div.password,
+div.password2 {
+    margin-top: 5px;
+}
+p.user-message,
+p.email-message,
+p.pass-message {
+    width: auto;
+    height: fit-content;
+    text-align: left;
+    padding-left: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #222020dc;
+}
+input.input {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #888;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+i.eyes1 {
+    position: absolute;
+    right: 10px;
+    bottom: 16px;
+    color: #484747;
+    cursor: pointer;
+}
+
+
+div.username span,
+div.email span,
+div.password span,
+div.password2 span {
+    position: absolute;
+    left: 0;
+    padding: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    pointer-events: none;
+    color: #888;
+    transition: 0.4s ease;
+}
+
+input:focus,
+input:valid {
+    border: 3px solid rgb(0, 0, 255);
+}
+input:focus ~ span,
+input:valid ~ span {
+    color: rgb(0, 0, 255);
+    transform: translateX(10px) translateY(-10px) scaleX(0.88);
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 6px;
+    padding: 1px 5px 1px 5px;
+    background-color: #fff;
+    letter-spacing: 3px;
+}
+div.submit {
+    width: 70%;
+    height: 6vh;
+    /* background-color: gray; */
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    
+}
+button.button {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000ec;
+}
+button.button:hover {
+    box-shadow: 0 0 5px 0 #888;
+}
+
+
+div.thirt {
+    display: inline-block;
+    width: 5%;
+    height: 100%;
+    padding-top: 65px;
+    /* background-color: rgb(230, 82, 28); */
+}
+div.rond {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: fantasy;
+    float: left;
+    display: block;
+    padding-top: 2px;
+    padding-right: 2px;
+    width: 31px;
+    height: 28px;
+    margin-top: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* background-color: green; */
+}
+div.rond:hover {
+    box-shadow: 0 0 15px 0 #000;
+}
+
+div.jaune {
+    background-color: rgba(255, 255, 0, 0.79);
+    box-shadow: 0 0 5px 0 #000;
+}
+div.bleu {
+    background-color: rgba(0, 0, 255, 0.851);
+    box-shadow: 0 0 5px 0 #000;
+    color: #fff;
+}
+div.noir {
+    background-color: #000000da;
+    box-shadow: 0 0 5px 0 #000;
+    color: #fff;
+>>>>>>> hw_freestyle
 }
